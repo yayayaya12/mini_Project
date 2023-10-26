@@ -1,0 +1,269 @@
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #AA1818;
+    background-color: #AA1818;
+    width: auto;
+
+}
+
+li {
+    float: right;
+    margin-right: 50px;
+}
+.Logo {
+    float: left;
+    margin: 5px;
+}
+
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+li a:hover:not(.active) {
+    background-color: #540000;
+}
+
+li a.active {
+    color: white;
+    background-color: #d26868;
+}
+
+.home {
+    margin-top: -5px;
+}
+
+.user {
+    margin-top: -5px;
+
+}
+.Search {
+    margin: 11px 0px 15px 80px;
+    width: 430px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: aliceblue;
+    background-color: #fff;
+}
+.inputsearch{
+    width: 30px;
+    height: 30px;
+    /* background-color: gold; */
+    margin-top: 15px;
+    margin-left: -40px;
+}
+
+footer {
+    text-align: center;
+    padding: 2px;
+    background-color: DarkSalmon;
+    color: white;
+    margin-top: 400px;
+}
+
+.footerone {
+    margin: 5px 10px 0px 10px;
+}
+
+.login {
+    font-family:cursive;
+}
+
+.div {
+    background-color: #ebc88d;
+    border-radius: 40px;
+    width: 400px;
+    height: 460px;
+    margin: 80px 0px 0px 380px;
+}
+
+.left {
+    background-color: #b69458;
+    border-radius: 40px;
+    width: 400px;
+    height: 460px;
+    margin: -60px 0px 0px -730px;
+    box-shadow:10px 15px 10px 0px #493c24;
+}
+
+.name {
+    margin: -290px 0px 20px 30px;
+}
+
+.button {
+    width: 200px;
+    height: 30px;
+    background-color: #b94040;
+    border-radius: 10px;
+    border: #AA1818;
+}
+
+.button:hover {
+    background-color: #e88383;
+    color: brown;
+}
+
+.buttonpass {
+    background-color: #ffffff00;
+    border: #ffffff00;
+}
+
+.buttonpass:hover {
+    color: #8d1c37;
+}
+
+
+body{
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    /*border:1px solid white;*/
+    width: 600px;
+    height: 350px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    display: inline-flex;
+}
+.backbox{
+    background-color: #404040;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    transform: translate(0,-50%);
+    top:50%;
+    display: inline-flex;
+}
+
+.frontbox{
+    background-color: white;
+    border-radius: 20px;
+    height: 100%;
+    width: 50%;
+    z-index: 10;
+    position: absolute;
+    right:0;
+    margin-right: 3%;
+    margin-left: 3%;
+    transition: right .8s ease-in-out;
+}
+
+.moving{
+    right:45%;
+}
+
+.loginMsg, .signupMsg{
+    width: 50%;
+    height: 100%;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.loginMsg .title,
+.signupMsg .title{
+    font-weight: 300;
+    font-size: 23px;
+}
+
+.loginMsg p,
+.signupMsg p {
+    font-weight: 100;
+}
+
+.textcontent{
+    color:white;
+    margin-top:65px;
+    margin-left: 12%;
+}
+
+.loginMsg button,
+.signupMsg button {
+    background-color: #404040;
+    border: 2px solid white;
+    border-radius: 10px;
+    color:white;
+    font-size: 12px;
+    box-sizing: content-box;
+    font-weight: 300;
+    padding:10px;
+    margin-top: 20px;
+}
+
+/* front box content*/
+.login, .signup{
+    padding: 20px;
+    text-align: center;
+}
+
+.login h2,
+.signup h2 {
+    color: #35B729;
+    font-size:22px;
+}
+
+.inputbox{
+    margin-top:30px;
+}
+.login input,
+.signup input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: #f2f2f2;
+    border: none;
+    margin-bottom:20px;
+    font-size: 12px;
+}
+
+.login button,
+.signup button{
+    background-color: #35B729;
+    border: none;
+    color:white;
+    font-size: 12px;
+    font-weight: 300;
+    box-sizing: content-box;
+    padding:10px;
+    border-radius: 10px;
+    width: 60px;
+    position: absolute;
+    right:30px;
+    bottom: 30px;
+    cursor: pointer;
+}
+
+.signup button:hover {
+    background-color: #16730e;
+    color:white;
+}
+
+/* Fade In & Out*/
+.login p {
+    cursor: pointer;
+    color:#404040;
+    font-size:15px;
+    font-family: MI COCOA THIN;
+}
+
+.loginMsg, .signupMsg{
+    /*opacity: 1;*/
+    transition: opacity .8s ease-in-out;
+}
+
+.visibility{
+    opacity: 0;
+}
+
+.hide{
+    display: none;
+}

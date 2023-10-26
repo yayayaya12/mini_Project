@@ -1,0 +1,87 @@
+.font {
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.hr{
+    width : 500px;
+    color : #000000;
+}
+
+/*.boxview {*/
+/*    margin-left: 380px;*/
+/*    border-radius: 15px;*/
+/*    margin-top: 30px;*/
+/*    border-color: #4f4f4f;*/
+/*    width: 500px;*/
+/*    text-align: left;*/
+/*    color: #000000;*/
+/*}*/
+
+.file {
+    margin-right: 45%;
+}
+
+.fontFile {
+    color: #ff0000;
+    font-size: 17px;
+    margin-right: 53%;
+}
+
+.receiveFile {
+    margin-top: -22%;
+    margin-bottom: 70px;
+
+}
+
+.img {
+    margin-left: 10px;
+    width: 40px;
+    margin-top: 5px;
+}
+
+.submit {
+    margin-left: 270px;
+    margin-top: -50px;
+    margin-bottom: 170px;
+}
+
+.p1{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.box1{
+    margin-left: 340px;
+    border-radius: 15px;
+    margin-top: 30px;
+    background-color: #ffffff;
+    width: 500px;
+    text-align: left;
+    color: black;
+    border: 3px solid #b7a276;
+    margin-bottom: 50px;
+}
+p{
+    margin-left: 30px;
+}
+
+.box2{
+    border-radius: 15px;
+    margin-top: 30px;
+    background-color: #ffffff;
+    width: 500px;
+    text-align: left;
+    color: black;
+    border: 3px solid #b7a276;
+    margin-bottom: 50px;
+}
+
+.list-document {
+    width: 700px;
+}
+
+.box-table {
+    border: 3px;
+    height: auto;
+    width: auto;
+}

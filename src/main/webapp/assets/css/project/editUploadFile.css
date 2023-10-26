@@ -1,0 +1,35 @@
+.font {
+    font-size: 30px ;
+    margin-top: 20px;
+}
+
+.hr {
+    margin-top: -28px;
+}
+
+.img {
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+. div {
+    margin-left: 55%;
+    margin-top: 30px;
+    background-color: #e8bd8e;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.fille {
+    margin-top: -185px;
+    margin-left: 15%;
+}
+
+.fontfile {
+    color: #ff0000;
+    font-size: 17px;
+}

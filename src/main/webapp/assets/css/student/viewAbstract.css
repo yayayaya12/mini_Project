@@ -1,0 +1,28 @@
+.divabstract {
+    margin-left: 10px;
+    border-radius: 15px;
+    margin-top: 30px;
+    background-color: #ffffff;
+    width: 500px;
+    text-align: left;
+    color: black;
+    border: 3px solid #ae6969;
+    margin-bottom: 50px;
+}
+
+.boxabstract {
+    border: 3px solid #b7a276;
+    border-radius: 20px;
+    margin-top: 60px;
+    height: 350px;
+    width: 400px;
+}
+
+.textabstract {
+    margin-right: 270px;
+    color: #a9a7a7;
+}
+
+p {
+    margin-left: 30px;
+}

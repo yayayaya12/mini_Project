@@ -1,0 +1,87 @@
+.img {
+    margin-left: 10px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.font {
+    font-size: 30px ;
+    margin-top: 40px;
+}
+
+.hr {
+    margin-top: 20px;
+}
+
+.boxupload {
+    width: auto;
+    height:310px;
+    margin-top: 30px;
+    font-size: 15px;
+    border: burlywood;
+    border-radius: 5px;
+}
+
+.submit {
+}
+
+
+
+
+
+
+/*.project {*/
+/*    color: #000000;*/
+/*}*/
+
+/*.projectEng {*/
+/*    color: #4b3d03;*/
+/*    font-family: 'Roboto', sans-serif;*/
+/*}*/
+
+.details {
+    float: left;
+    margin-left: 190px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+/*.line {*/
+/*    border-left: 4px solid #5d3105;*/
+/*    height: 160px;*/
+/*    position: absolute;*/
+/*    left: 50%;*/
+/*    margin-top: -24px;*/
+/*}*/
+
+.fille {
+    margin-left: 65px;
+}
+
+.fontfile {
+    color: red;
+    font-size: 17px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+
+/*.custom-btn {*/
+/*    width: 130px;*/
+/*    height: 40px;*/
+/*    color: #000000;*/
+/*    border-radius: 5px;*/
+/*    padding: 10px 25px;*/
+/*    font-family: 'Lato', sans-serif;*/
+/*    font-weight: 500;*/
+/*    background: transparent;*/
+/*    cursor: pointer;*/
+/*    transition: all 0.3s ease;*/
+/*    position: relative;*/
+/*    display: inline-block;*/
+/*    box-shadow:inset 2px 2px 2px 0px rgb(63, 189, 42),*/
+/*    7px 7px 20px 0px rgba(0,0,0,.1),*/
+/*    4px 4px 5px 0px rgba(0,0,0,.1);*/
+/*    outline: none;*/
+/*    margin-top: 160px;*/
+/*    right: 16%;*/
+/*}*/
